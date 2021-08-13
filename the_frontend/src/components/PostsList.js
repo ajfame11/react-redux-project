@@ -9,7 +9,7 @@ const PostsList = ({ posts }) => {
         <div>
             <PostForm />
             <div className="postWrapper" >
-            {posts.map((post, key) => <Post title={post.title} body={post.body} id={post.id} key={key} /> ).reverse()}
+            {posts.map((post, key) => <Post title={post.title} body={post.body} id={post.id} key={key} /> )}
             </div>
             {/* <View /> */}
         </div>
